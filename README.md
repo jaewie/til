@@ -4,7 +4,6 @@
 
 Little programming nuggets on how to do various tasks.
 
-
 ---
 
 ### Categories
@@ -15,8 +14,9 @@ Little programming nuggets on how to do various tasks.
 
 ### Unix
 
+- [Checking whether a file exists](unix/file-exists-check.md)
 - [Listing only directories](unix/ls-directories.md)
-
+- [Piping to a command](unix/xargs.md)
 
 ## About
 
