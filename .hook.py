@@ -17,14 +17,14 @@ I shamelessly stole this idea from
 
 def get_categories():
     all_files = os.listdir('.')
-    return [f for f in all_files if os.path.isdir(f) and not f.startswith('.')]
+    return sorted([f for f in all_files if os.path.isdir(f) and not f.startswith('.')])
 
 
 def get_nuggets(subdirname):
     path = os.path.join(os.getcwd(), subdirname)
     nuggets = [f for f in os.listdir(path) if f.endswith('md') and not f.startswith('.')]
 
-    return [(n, get_title(os.path.join(path, n))) for n in nuggets]
+    return sorted([(n, get_title(os.path.join(path, n))) for n in nuggets], key=lambda x: x[1])
 
 
 def get_title(abspath):
