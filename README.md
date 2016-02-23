@@ -15,7 +15,7 @@ Little programming nuggets on how to do various tasks.
 
 ### Git
 
-- [Adding all modified, deleted, and untracked files staging area](git/take-all-changes.md)
+- [Adding all modified, deleted, and untracked files to the staging area](git/take-all-changes.md)
 
 ### Unix
 
