@@ -8,9 +8,14 @@ Little programming nuggets on how to do various tasks.
 
 ### Categories
 
+* [Git](#git)
 * [Unix](#unix)
 
 ---
+
+### Git
+
+- [Adding all modified, deleted, and untracked files staging area](git/take-all-changes.md)
 
 ### Unix
 
