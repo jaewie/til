@@ -21,6 +21,7 @@ Little programming nuggets on how to do various tasks.
 ### Python
 
 - [Joining multiple generators](python/join-iterables.md)
+- [Turn Python files pep8 compliant](python/auto-pep8.md)
 
 ### Unix
 
