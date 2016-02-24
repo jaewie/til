@@ -7,6 +7,8 @@ HEADER = '''# TIL
 
 Little programming nuggets on how to do various tasks.
 
+*Currently {} TILs*
+
 '''
 
 FOOTER = '''## About
@@ -38,12 +40,14 @@ def format_categories(categories):
     lines.append('')
     lines.append('---')
     lines.append('')
+    count = 0
 
     for i, c in enumerate(categories):
         lines.append('### {}'.format(c.title()))
         lines.append('')
 
         for f, title in get_nuggets(c):
+            count += 1
             location = os.path.join(c, f)
             line = '- [{}]({})'.format(title, location)
             lines.append(line)
@@ -53,15 +57,15 @@ def format_categories(categories):
 
     lines.append('')
     lines.append('')
-    return '\n'.join(lines)
+    return '\n'.join(lines), count
 
 
 def main():
     categories = get_categories()
-    content = format_categories(categories)
+    content, count = format_categories(categories)
 
     with open('README.md', 'w') as f:
-        f.write(HEADER)
+        f.write(HEADER.format(count))
         f.write(content)
         f.write(FOOTER)
 

@@ -4,6 +4,8 @@
 
 Little programming nuggets on how to do various tasks.
 
+*Currently 7 TILs*
+
 ---
 
 ### Categories
