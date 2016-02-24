@@ -9,6 +9,7 @@ Little programming nuggets on how to do various tasks.
 ### Categories
 
 * [Git](#git)
+* [Python](#python)
 * [Unix](#unix)
 
 ---
@@ -16,6 +17,10 @@ Little programming nuggets on how to do various tasks.
 ### Git
 
 - [Adding all modified, deleted, and untracked files to the staging area](git/take-all-changes.md)
+
+### Python
+
+- [Joining multiple generators](python/join-iterables.md)
 
 ### Unix
 
