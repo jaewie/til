@@ -4,7 +4,7 @@
 
 Little programming nuggets on how to do various tasks.
 
-*Currently 8 TILs*
+*Currently 9 TILs*
 
 ---
 
@@ -28,6 +28,7 @@ Little programming nuggets on how to do various tasks.
 ### Unix
 
 - [Checking whether a file exists](unix/file-exists-check.md)
+- [Finding out parent process id](unix/parent-pid.md)
 - [Killing all child processes](unix/kill-all-child-processes.md)
 - [Listing all commands ran](unix/command-history.md)
 - [Listing only directories](unix/ls-directories.md)
