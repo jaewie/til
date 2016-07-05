@@ -1,3 +1,3 @@
 # Killing all child processes
 
-Run `pkill -TERM -P 1234` where 1234 is the parent process or `CPIDS=$(pgrep -P 1234); (sleep 33 && kill -KILL $CPIDS &); kill -TERM $CPIDS`
+`pkill -TERM -P 1234` where 1234 is the parent process or `CPIDS=$(pgrep -P 1234); (sleep 33 && kill -KILL $CPIDS &); kill -TERM $CPIDS`

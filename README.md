@@ -4,7 +4,7 @@
 
 Little programming nuggets on how to do various tasks.
 
-*Currently 10 TILs*
+*Currently 11 TILs*
 
 ---
 
@@ -13,6 +13,7 @@ Little programming nuggets on how to do various tasks.
 * [Git](#git)
 * [Python](#python)
 * [Unix](#unix)
+* [Vim](#vim)
 
 ---
 
@@ -34,6 +35,10 @@ Little programming nuggets on how to do various tasks.
 - [Listing all commands ran](unix/command-history.md)
 - [Listing only directories](unix/ls-directories.md)
 - [Piping to a command](unix/xargs.md)
+
+### Vim
+
+- [Repeat an edit on multiple lines](vim/repeat-edit.md)
 
 ## About
 
