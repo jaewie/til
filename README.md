@@ -4,7 +4,7 @@
 
 Little programming nuggets on how to do various tasks.
 
-*Currently 13 TILs*
+*Currently 14 TILs*
 
 ---
 
@@ -41,6 +41,7 @@ Little programming nuggets on how to do various tasks.
 - [Deleting a line without putting it in registers](vim/delete-without-overwriting-registers.md)
 - [Repeating an edit on multiple lines](vim/repeat-edit.md)
 - [Sorting lines alphabetically](vim/sort-lines.md)
+- [Temporarily exiting vim](vim/temporarily-exit-vim.md)
 
 ## About
 
