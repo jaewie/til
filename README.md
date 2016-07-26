@@ -4,7 +4,7 @@
 
 Little programming nuggets on how to do various tasks.
 
-*Currently 14 TILs*
+*Currently 15 TILs*
 
 ---
 
@@ -30,6 +30,7 @@ Little programming nuggets on how to do various tasks.
 
 - [Checking whether a file exists](unix/file-exists-check.md)
 - [Counting number of lines of code in a directory](unix/amount-of-code.md)
+- [Deleting all files matching a pattern](unix/delete-all-files-by-pattern.md)
 - [Finding out parent process id](unix/parent-pid.md)
 - [Killing all child processes](unix/kill-all-child-processes.md)
 - [Listing all commands ran](unix/command-history.md)
