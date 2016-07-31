@@ -4,7 +4,7 @@
 
 Little programming nuggets on how to do various tasks.
 
-*Currently 15 TILs*
+*Currently 16 TILs*
 
 ---
 
@@ -20,6 +20,7 @@ Little programming nuggets on how to do various tasks.
 ### Git
 
 - [Adding all modified, deleted, and untracked files to the staging area](git/take-all-changes.md)
+- [Adding git hooks](git/add-git-hooks.md)
 
 ### Python
 
